@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\partightenfactor0
+
+\f0\b\fs40 \cf0 Sentiment Analysis (IMDb) \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f1\b0\fs26 \cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 The approach that is followed for the implementation of sentiment analysis which is based on the movie review dataset (IMDb), is like the dataset is first explored, preprocessed and then the model is trained which is further evaluated by the test data. Here PyTorch is used and the model architecture which is used here is the DeBerta, the reason for this family of transformer is the solid results which the model generated on the text classification task. The challenges that were faced here in this project is the first one is the time constrain due to which I could not performed multiple experiments and I restricted myself in the pre-processing phase as well. Second one was the computation issue means the limited resources, I used Google Colab for the experiments and that provide limited GPU access. The challenged that I faced were handled in manner of like the restriction that I put in the pre-processing phase, I did slight pre-processing and the computational issue was handled like I trained only one model without experimenting on other family of transformer. \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 The better approach that should be adopted for this project is given below:\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	1.	}Dataset should be further investigated in every perspective.\
+{\listtext	2.	}The dataset must be pre-processed in more scenario like we need to remove certain irrelevant words and find out the best feature words. \
+{\listtext	3.	}Context length should be increased as well, here further investigation is required. \
+{\listtext	4.	}Need to perform many experiments with the selection of the family of transformers like GPT family etc.\
+{\listtext	5.	}For Optimal hyper-parameters selection further experiments should be performed. \
+{\listtext	6.	}Best model should be saved and deployed on cloud which must be checked further on fly. \
+\pard\tx566\pardeftab560\pardirnatural\partightenfactor0
+\cf0 \
+Please note: The trained model is just trained for 1 epoch due the limited resources on my end at the moment. \
+}

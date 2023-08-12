@@ -1,0 +1,8 @@
+Torch
+Transformers
+Pandas
+Numpy
+Datasets
+Matplotlib
+Seaborn
+Tqdm
